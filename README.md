@@ -1,6 +1,6 @@
 # Analysis-of-Algorithms
 
-Racovcena Irina, FAF-212
+>Racovcena Irina, FAF-212
 
 ## Lab1
 ### Study and Empirical Analysis of Algorithms for Determining Fibonacci N-th Term
