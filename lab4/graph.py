@@ -37,7 +37,6 @@ def dfs(G, start_node, visited=None):
     if visited is None:
         visited = set()
     visited.add(start_node)
-    print(start_node)
 
     for neighbor in G.neighbors(start_node):
         if neighbor not in visited:
@@ -50,7 +49,6 @@ def bfs(G, start_node):
     while queue:
         node = queue.pop(0)
         if node not in visited:
-            print(node)
             visited.add(node)
             for neighbor in G.neighbors(node):
                 queue.append(neighbor)
