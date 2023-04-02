@@ -33,10 +33,6 @@ def unbalanced(num_vertices):
 
     return G
 
-# Draw the graph
-# nx.draw(G, with_labels=True)
-# plt.show()
-
 def dfs(G, start_node, visited=None):
     if visited is None:
         visited = set()
